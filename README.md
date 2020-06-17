@@ -14,12 +14,14 @@ Pic2Kitchen will make your life way easy: It recognizes a photo of a ingredient 
 
 
 # How to use? 
-By using advanced photo recognition and complex machine learning, PixFood gives you tailored suggestions on what to cook next. All you need to do is to take a photo of the ingredients. The rest of work, pic2kitchen will do it for you. It instantly sends you tailored recipe suggestions! If you take 2 or more ingredients, then the app will show more recipes recommendations using those ingredients.
+By using advanced photo recognition and complex machine learning, Pic2kitchen gives you tailored suggestions on what to cook next. All you need to do is to take a photo of the ingredients. The rest of work, Pic2kitchen will do it for you. It instantly sends you tailored recipe suggestions! If you take 2 or more ingredients, then the app will show more recipes recommendations using those ingredients.
 
 Add allergies and diet preferences, to get even more tailored results. It starts to learn what you personally like, by connecting patterns and taking into consideration different behaviors.The more you use the app, the better suggestions you get!
 
 ![](https://i.imgur.com/GaMHvRr.jpg)
+
 # Workflow
+
 ![](https://i.imgur.com/LFhnmsR.png)
 
 
