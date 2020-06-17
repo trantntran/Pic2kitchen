@@ -18,9 +18,10 @@ By using advanced photo recognition and complex machine learning, PixFood gives 
 
 Add allergies and diet preferences, to get even more tailored results. It starts to learn what you personally like, by connecting patterns and taking into consideration different behaviors.The more you use the app, the better suggestions you get!
 
-
-## Workflow
+![](https://i.imgur.com/GaMHvRr.jpg)
+# Workflow
 ![](https://i.imgur.com/LFhnmsR.png)
+
 
 **Use ‘PIC 2 KITCHEN’ BE HEALTHIER, SAVE MONEY, SAVE EARTH, SPEND LESS TIME, SPEND LESS EFFORT and have happy life.** 
 
