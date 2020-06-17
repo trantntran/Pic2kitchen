@@ -1,0 +1,106 @@
+/*!
+ * Cachu Slider v0.1.6
+ * Copyright (c) 2018 Mystro Ken <mystroken@gmail.com>
+ * MIT License
+ */
+.cachu__container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.cachu__container--content-fit .cachu__section {
+  height: 100%;
+}
+
+.cachu__sections {
+  /* visibility: hidden; */
+  /* Remove spacing between sections */
+  display: flex;
+  flex-direction: column;
+}
+
+.cachu__section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.cachu__nav {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  width: 1rem;
+  transform: translate3d(0, -50%, 0);
+  z-index: 50;
+}
+
+.cachu__nav__items, .cachu__nav__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.cachu__nav__items {
+  width: 100%;
+}
+
+.cachu__nav__item {
+  position: relative;
+  height: 1rem;
+  width: 100%;
+}
+
+.cachu__nav__item:not(:first-of-type) {
+  margin-top: 0.5rem;
+}
+
+.cachu__nav__button {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale(0.5);
+  transition-property: transform;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  background-color: #dc3545;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active .cachu__nav__button {
+  transform: scale(1);
+  margin: auto;
+}
+
+.cachu__nav__tooltip {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  right: calc(2.5rem);
+  color: #ffffff;
+  font-size: 14px;
+  font-family: inherit;
+  white-space: nowrap;
+  width: 0;
+  max-width: 220px;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  cursor: pointer;
+  transform: translate3d(0, -50%, 0);
+  transition: all 250ms ease-in-out;
+}
+
+.active .cachu__nav__tooltip {
+  opacity: 1;
+  width: auto;
+}
